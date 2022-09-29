@@ -1,8 +1,7 @@
 int	print_hex(int i)
 {
 	int		counter;
-    char*hex= "0123456789abcdef";
-
+	char *hex= "0123456789abcdef";
 	if (i < 0)
 		i += 4294967296;
 	counter = 0;	

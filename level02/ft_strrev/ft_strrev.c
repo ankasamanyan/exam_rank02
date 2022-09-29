@@ -12,10 +12,8 @@ char    *ft_strrev(char *str)
 	while (len > i && str[i] != 0)
 	{
 		swap = str[i];
-		str[i] = str[len];
-		str[len] = swap;
-		len--;
-		i++;
+		str[i++] = str[len];
+		str[len--] = swap;
 	}
 	return (str);
 }

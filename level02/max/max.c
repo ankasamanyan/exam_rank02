@@ -2,7 +2,7 @@
 int		max(int* tab, unsigned int len)
 {
     unsigned int i = 0;
-   unsigned  int j = 0;
+   	unsigned  int j = 0;
     unsigned int swap = 0;
     while (i < len)
     {
@@ -21,6 +21,7 @@ int		max(int* tab, unsigned int len)
     }
     return (tab[len - 1]);
 }
+//I know this is retarded :))
 
 // int main(void)
 // {
